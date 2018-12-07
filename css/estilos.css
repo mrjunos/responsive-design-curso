@@ -43,7 +43,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  flex-wrap: wrap;
 }
 
 .hero-image{
@@ -65,6 +65,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .project-course,
 .project-date,
@@ -100,6 +101,7 @@ h2 {
   height: 70px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 ol,
@@ -265,7 +267,7 @@ figure {
 }
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -279,7 +281,7 @@ figure {
 
 @media screen and (max-width: 768px){
   body{
-    border: 10px solid green;
+    /* border: 10px solid green; */
   }
 }
 
